@@ -1,0 +1,21 @@
+Ideas:
+
+1.	Analyze tweet data to analyze juuling teens and young adults - Similar to design of this opioid study (https://link.springer.com/article/10.1007%2Fs13181-017-0625-5)
+	a. Questions of interest:
+		i. Which locations and demographic info (to be attached by geolocation/zip code) is juuling most prevalent? 
+			1. Has this changed over time (pretty recent, so we maybe can exclude this)?  
+		ii. If juuling is mentioned in a tweet, are these mostly related to quitting smoking, or is it more of a novelty?  
+		iii. Is juuling referenced in tweets more/less than smoking cigarettes/weed amongst young people?  
+		iv.	Are there twitter accounts/hashtags/initiatives against juuling on twitter, and are they effective?
+	b. NLP model to classify a tweet if juuling is mentioned in a way where the person is/has used it for recreation, if it’s referenced in a way where it’s helping people stop smoking, or if it’s referenced in a way that people are against it (multiclass classification).
+		i. Challenges:
+			1. Will sample size be large enough for training, validation, test?
+				- Manually need to pull tweets everyday bc free version of twitter API only allows you to go back 7 days, 450 tweets every 15 min
+			2. Need to manually label tweets
+			3. Video or pics of juuling will be excluding - missing some signal here
+			4. No demographic data on tweets
+				- For tweets with geolocation/zip, can attach census info about income, # of young people in area, etc
+				- Can probably get a pretty solid model from tweets this and then apply model to FB statuses (API?) to gather insights on demographics?
+	c.	Limitations/biases: 
+			1. Not sure how many high school age are on twitter, study (http://www.pewinternet.org/2018/05/31/teens-social-media-technology-2018/) says 32% - not sure we can facilitate this through any other social media platform (insta or snap would probably be best)
+			2. If applying to FB data, may not get insights on younger people because HS are not on FB as much - more skewed to people stopping smoking(?)
