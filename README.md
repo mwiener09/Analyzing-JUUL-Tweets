@@ -14,4 +14,4 @@ The main file to work off of is \_Discovering-Predictors-of-Retweets-Referencing
 - LDA Model: supporting-code-and-data/juul_lda_topic_model.pickle
 - Naive Bayes Model: supporting-code-and-data/juul_naive_bayes_topic_classifier.pickle (modeled using supporting-code-and-data/juul_topic_classification_filtered.csv dataset)
 
-Thanks! Please feel free to email me at wiener_marissa@bah.com if you have any questions about the code.
+Thanks! Please feel free to email me at mwiener09@gmail.com if you have any questions about the code.
